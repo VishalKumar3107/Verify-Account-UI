@@ -1,0 +1,40 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .otp-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .otp-field input {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .otp-field input:focus {
+    border-color: #333;
+    outline: none;
+  }
+  
+  button.btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+  }
+  
